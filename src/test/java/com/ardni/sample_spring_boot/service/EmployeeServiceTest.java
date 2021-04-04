@@ -64,7 +64,6 @@ public class EmployeeServiceTest {
     public void getEmployeeByAgeTest() {
         List<Employee> list = new ArrayList<Employee>();
 
-        list.add(new Employee(1L, "Ilya", 12.0f, 99));
         list.add(new Employee(2L, "Alex", 12.0f, 19));
         list.add(new Employee(3L, "Steve", 12.0f, 19));
 
